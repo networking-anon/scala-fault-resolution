@@ -5,4 +5,5 @@ Abstract: Efficient fault resolution is a key requirement for zero-touch autonom
 The source code for the GAN, GMM, and RAG components used in this work is provided in this repository. Please install the required dependencies listed in requirements.txt before running the code.
 
 The file fault-logs-o-ran-64.xls contains the original fault log corpus, which is used as input to the GAN for generating synthetic fault data. Once the knowledge base is expanded using the generated data, the GMM and RAG modules can be executed to perform clustering and enable intelligent fault resolution on new inference data.
+Pseudocode-SCALA pdf contains the detailed pseudocode outlining our proposed SCALA pipeline for Intelligent Fault Resolution.
 
